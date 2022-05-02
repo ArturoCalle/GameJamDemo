@@ -11,14 +11,12 @@ public class GroundCheck : MonoBehaviour
         if (collision.tag == "Floor")
         {
             playerin.grounded = true;
-            Debug.Log("no esta grounded");
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
        
         playerin.grounded = false;
-        Debug.Log("esta grounded");
         
     }
 }
