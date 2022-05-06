@@ -37,8 +37,6 @@ public class PlayerInputController : MonoBehaviour
 
     public void getInputs()
     {
-        Vector2 flip = new Vector2(1, 1);
-        transform.localScale = flip;
         if (Input.GetKey(KeyCode.A))
         {
             
@@ -46,8 +44,6 @@ public class PlayerInputController : MonoBehaviour
                 moveDirection.x += 0;
             else
             {
-                flip.x = -1;
-                transform.localScale = flip;
                 moveDirection.x = -1;
             }
         }
