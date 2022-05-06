@@ -7,7 +7,6 @@ public class GroundCheck : MonoBehaviour
     public PlayerInputController playerin;
     private void OnTriggerStay2D(Collider2D collision)
     {
-        Debug.Log("colision");
         if (collision.tag == "Floor")
         {
             playerin.grounded = true;
