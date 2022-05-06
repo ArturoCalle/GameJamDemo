@@ -16,6 +16,15 @@ public class Bala : MonoBehaviour
             collision.GetComponent<PlayerStats>().Vida -= Danio;
             Destroy(gameObject);
         }
+        if (collision.gameObject.tag == "Floor")
+        {         
+            Destroy(gameObject);
+        }
+        if (collision.gameObject.tag == "Enemigo")
+        {
+            collision.GetComponent<Enemigo>().VidaEnemigo -= Danio;
+            Destroy(gameObject);
+        }
     }
     
     // Start is called before the first frame update

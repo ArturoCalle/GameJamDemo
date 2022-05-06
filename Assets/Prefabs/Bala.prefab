@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7548263155221634590}
   - component: {fileID: 7548263155221634585}
   - component: {fileID: 7548263155221634584}
-  - component: {fileID: 7548263155221634588}
   m_Layer: 0
   m_Name: Bala
   m_TagString: Untagged
@@ -126,24 +125,3 @@ MonoBehaviour:
   Danio: 15
   SegundosVida: 3
   velocidad: 0.03
---- !u!50 &7548263155221634588
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7548263155221634587}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
